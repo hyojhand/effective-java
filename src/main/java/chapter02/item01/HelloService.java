@@ -1,5 +1,5 @@
 package chapter02.item01;
-
+// 서비스 제공자 인터페이
 public interface HelloService {
 
     String hello();
