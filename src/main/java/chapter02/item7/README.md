@@ -61,3 +61,29 @@ Java8에 추가된 optional을 활용해서 NPE를 최대한 피하자!
   Strong reference가 사라지면, Phantom reference를 ReferenceQueue에 넣어준다.  
 1.자원 정리용도(finalizer < phantom reference < try-resource)  
 2.언제 객체의 메모리가 해제되는지 알 수 있다.(큐에 담기는 시점으로) 메모리가 큰 객체에 관심이 많을 때 사용할 수 있겠다.
+
+## 백그라운드 스레드 - ScheduledThreadPoolExecutor
+
+**Thread, Runnable, ExecutorService**
+
+스레드를 활용한 100개의 작업이 필요해서 100개의 스레드를 만드는 것은 리소스 낭비가 심하다.  
+→ 스레드 풀을 생성해서 지정한 개수만큼의 스레드만 생성한다.
+
+**스레드 풀의 개수 기준**
+
+- CPU에 집중적인 작업이라면, CPU 개수만큼만 스레드를 생성해야 한다. 그 이상은 의미가 없다.
+  `Runtime.getRuntime().availableProcessors()` : CPU 개수 확인
+- I/O에 집중적인 작업이라면, 조금 더 많은 스레드를 필요로 하는데 적절한 스레드를 찾기 위한 과정이 필요
+
+### 스레드 풀 종류
+
+- **FixedThreadPool(10)** : 지정된 개수만큼의 스레드를 생성한다.
+- **CachedThreadPool()** : 필요한 만큼 스레드를 생성하고, 기존의 스레드가 있으면 재사용한다.  
+  오래된 스레드는 삭제한다.
+- **SingleThreadExecutor()** : 하나의 스레드로 진행
+- **ScheduledThreadPool(10)** : 몇초 뒤에 딜레이하거나, 주기적으로 실행하는 용도의 스레드 풀
+
+**Runnable, Callable, Future**
+
+- Runnable은 리턴타입이 없어서 작업만 수행하고 끝난다.
+- Callable은 작업의 결과를 받을 수 있다.
