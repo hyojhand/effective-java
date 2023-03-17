@@ -17,3 +17,7 @@
 - [아이템6. 불필요한 객체 생성을 피하라](./src/main/java/chapter02/item6)
 - [아이템7. 다 쓴 객체 참조를 해제하라](./src/main/java/chapter02/item7)
 - [아이템8. finalizer와 cleaner 사용을 피하라](./src/main/java/chapter02/item8)
+
+### [3장 모든 객체의 공통 메서드](./src/main/java/chapter03) 
+- [아이템10. equals는 일반 규약을 지켜 재정의하라](./src/main/java/chapter03/item10)
+- [아이템11. equals를 재정의하려거든 hashCode도 재정의하라](./src/main/java/chapter03/item11)
