@@ -1,4 +1,4 @@
-### 이펙티브 자바 목표
+## 이펙티브 자바 목표
 
 **“확실하게 이해하고 근거있게 사용하자”**
 
@@ -21,3 +21,6 @@
 ### [3장 모든 객체의 공통 메서드](./src/main/java/chapter03) 
 - [아이템10. equals는 일반 규약을 지켜 재정의하라](./src/main/java/chapter03/item10)
 - [아이템11. equals를 재정의하려거든 hashCode도 재정의하라](./src/main/java/chapter03/item11)
+
+### [4장 클래스와 인터페이스](./src/main/java/chapter04)
+- [아이템18. 상속보다는 컴포지션을 사용하라](./src/main/java/chapter04/item18)
