@@ -24,3 +24,6 @@
 
 ### [4장 클래스와 인터페이스](./src/main/java/chapter04)
 - [아이템18. 상속보다는 컴포지션을 사용하라](./src/main/java/chapter04/item18)
+
+### [6장 열거 타입과 애너테이션](./src/main/java/chapter06)
+- [아이템37. ordinal 인덱싱 대신 EnumMap을 사용하라](./src/main/java/chapter06/item37)
