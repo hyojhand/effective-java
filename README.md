@@ -22,6 +22,7 @@
 - [아이템10. equals는 일반 규약을 지켜 재정의하라](./src/main/java/chapter03/item10)
 - [아이템11. equals를 재정의하려거든 hashCode도 재정의하라](./src/main/java/chapter03/item11)
 - [아이템12. toString을 항상 재정의하라](./src/main/java/chapter03/item12)
+- [아이템14. Comparable을 구현할지 고민하라](./src/main/java/chapter03/item14)
 
 ### [4장 클래스와 인터페이스](./src/main/java/chapter04)
 - [아이템18. 상속보다는 컴포지션을 사용하라](./src/main/java/chapter04/item18)
