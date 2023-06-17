@@ -26,6 +26,7 @@
 
 ### [4장 클래스와 인터페이스](./src/main/java/chapter04)
 - [아이템15. 클래스와 멤버의 접근 권한을 최소화하라](./src/main/java/chapter04/item15)
+- [아이템16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라](./src/main/java/chapter04/item16)
 - [아이템18. 상속보다는 컴포지션을 사용하라](./src/main/java/chapter04/item18)
 
 ### [6장 열거 타입과 애너테이션](./src/main/java/chapter06)
