@@ -29,6 +29,8 @@
 - [아이템16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라](./src/main/java/chapter04/item16)
 - [아이템17. 변경 가능성을 최소화하라](./src/main/java/chapter04/item17)
 - [아이템18. 상속보다는 컴포지션을 사용하라](./src/main/java/chapter04/item18)
+- [아이템21. 인터페이스는 구현하는 쪽을 생각해 설계하라](./src/main/java/chapter04/item21)
+- [아이템24. 멤버 클래스는 되도록 static으로 만들라](./src/main/java/chapter04/item24)
 
 ### [6장 열거 타입과 애너테이션](./src/main/java/chapter06)
 - [아이템37. ordinal 인덱싱 대신 EnumMap을 사용하라](./src/main/java/chapter06/item37)
