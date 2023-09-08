@@ -33,6 +33,7 @@
 - [아이템21. 인터페이스는 구현하는 쪽을 생각해 설계하라](./src/main/java/chapter04/item21)
 - [아이템23. 태그 담긴 클래스보다는 클래스 계층구조를 활용하라](./src/main/java/chapter04/item23)
 - [아이템24. 멤버 클래스는 되도록 static으로 만들라](./src/main/java/chapter04/item24)
+- [아이템25. 톱레벨 클래스는 한 파일에 하나만 담으라](./src/main/java/chapter04/item25)
 
 ### [6장 열거 타입과 애너테이션](./src/main/java/chapter06)
 - [아이템37. ordinal 인덱싱 대신 EnumMap을 사용하라](./src/main/java/chapter06/item37)
